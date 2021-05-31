@@ -1,0 +1,37 @@
+
+.imagenCiudades{
+    width: 250px;
+    height: 180px;
+}
+
+.videos{
+    width: 28rem;
+    height: 20rem;
+    margin: 1.3rem;
+}
+.imgDocentes{
+    width: 200px;
+    height: 150px;
+}
+@media only screen and (min-width: 768px) {
+    .imagenCiudades{
+        width: 150px;
+        height: 100px;
+    }
+    .videos{
+        width: 22rem;
+        height: 15rem;
+        margin: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {  
+    .imagenCiudades{
+        width: 250px;
+        height: 200px;
+    }
+    .videos{
+        width: 37rem;
+        height: 25rem;
+    }
+}

@@ -1,0 +1,103 @@
+.titulos{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    text-decoration:underline;
+    margin: 2rem;
+}
+
+.subtitulos{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0.5rem;
+    text-decoration: underline;
+}
+
+.subtitulos2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0.5rem;
+    text-decoration: underline;
+}
+
+.links{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.links2{
+    color: black;
+    text-decoration: none;
+}
+.texto{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.espacios{
+    margin: 1rem;
+}
+.contacto{
+    margin: 1rem;
+    border: 0.2rem solid;
+    padding: 1rem;
+    width: 90%;
+    height: 35rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.textoContacto{
+    font-size: 4rem;
+}
+@media only screen and (min-width: 768px) {
+    .titulos{
+        font-size: 3.5rem;
+    }
+    
+    .subtitulos{
+        font-size: 3rem;
+    }
+    
+    .subtitulos2{
+        font-size: 3rem;
+    }
+    .links{
+        font-size: 2rem;
+    }
+    .texto{
+        font-size: 2.2rem;
+    }
+    .espacios{
+        margin: 1rem;
+    }
+    .novedades{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+    }
+}
+
+@media only screen and (min-width: 1024px) {  
+    .titulos{
+        font-size: 4rem;
+    }
+    
+    .subtitulos{
+        font-size: 3.5rem;
+    }
+    
+    .subtitulos2{
+        margin: 2rem;
+        font-size: 3rem;
+    }
+    .links{
+        font-size: 2.5rem;
+    }
+    .texto{
+        font-size: 2.5rem;
+    }
+    .espacios{
+        margin: 2rem 1rem 4rem 1rem;
+    }
+}
+
