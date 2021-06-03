@@ -24,7 +24,7 @@ html{
 }
 .iconos{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 12rem 12rem;
     text-align: center;
     justify-content: center;
@@ -33,23 +33,26 @@ html{
     margin-top: 3rem;
     font-size: 1.5rem;
 }
-.cursosBody{
-    position: relative;
-}
+
 
 @media only screen and (min-width: 768px) {
     .paginaPrincipal{
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto;
     }
+
     .docentes{
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
         font-size: 1.5rem;
     }
     .iconos{
         grid-template-columns: 1fr 1fr 1fr;
         font-size: 1.5rem;
+    }
+    .cursosBody{
+        position: relative;
+        height: 78rem;
     }
 }
 
@@ -69,4 +72,8 @@ html{
         font-size: 2rem;
         margin: 6.3rem    
     }
+    .cursosBody{
+        position: relative;
+    }
 }
+

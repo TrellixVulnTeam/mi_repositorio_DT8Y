@@ -9,9 +9,9 @@
     margin: 1.3rem;
 }
 .imgFooter{ 
-    width: 4rem;
-    height: 4rem;
-    margin: 4rem;
+    width: 3rem;
+    height: 3rem;
+    margin: 5rem;
 }
 .imgDocentes{
     width: 250px;
@@ -30,6 +30,10 @@
         height: 15rem;
         margin: 1.3rem;
     }
+    .imgDocentes{
+        width: 200px;
+        height: 150px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {  
@@ -40,5 +44,14 @@
     .videos{
         width: 37rem;
         height: 25rem;
+    }
+    .imgFooter{ 
+        width: 4rem;
+        height: 4rem;
+        margin: 4rem;
+    }
+    .imgDocentes{
+        width: 250px;
+        height: 200px;
     }
 }

@@ -58,7 +58,7 @@
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
-  margin: 14rem;
+  margin: 0rem;
   font-size: 1.2rem; }
 
 @media only screen and (min-width: 768px) {
@@ -107,10 +107,7 @@
 
 .links {
   color: black;
-  font-size: 1.5rem;
-  position: absolute;
-  bottom: 0px;
-  right: 20px; }
+  font-size: 1.5rem; }
 
 .links2 {
   color: black;
@@ -119,7 +116,7 @@
 .texto {
   text-align: center;
   font-size: 2rem;
-  margin: 0.5rem; }
+  margin: 1rem; }
 
 .espacios {
   margin: 1rem; }
@@ -144,7 +141,10 @@
   .subtitulos2 {
     font-size: 3rem; }
   .links {
-    font-size: 2rem; }
+    font-size: 2rem;
+    position: absolute;
+    bottom: 0px;
+    right: 14px; }
   .texto {
     font-size: 2.2rem; }
   .espacios {
@@ -152,7 +152,9 @@
   .novedades {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto; } }
+    grid-template-rows: auto; }
+  .textoDocentes {
+    margin-top: 2rem; } }
 
 @media only screen and (min-width: 1024px) {
   .titulos {
@@ -164,7 +166,10 @@
     margin: 2rem;
     font-size: 3rem; }
   .links {
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 0px;
+    right: 20px; }
   .texto {
     font-size: 2.5rem;
     margin: 4rem; }
@@ -181,9 +186,9 @@
   margin: 1.3rem; }
 
 .imgFooter {
-  width: 4rem;
-  height: 4rem;
-  margin: 4rem; }
+  width: 3rem;
+  height: 3rem;
+  margin: 5rem; }
 
 .imgDocentes {
   width: 250px;
@@ -199,7 +204,10 @@
   .videos {
     width: 22rem;
     height: 15rem;
-    margin: 1.3rem; } }
+    margin: 1.3rem; }
+  .imgDocentes {
+    width: 200px;
+    height: 150px; } }
 
 @media only screen and (min-width: 1024px) {
   .imagenCiudades {
@@ -207,7 +215,14 @@
     height: 200px; }
   .videos {
     width: 37rem;
-    height: 25rem; } }
+    height: 25rem; }
+  .imgFooter {
+    width: 4rem;
+    height: 4rem;
+    margin: 4rem; }
+  .imgDocentes {
+    width: 250px;
+    height: 200px; } }
 
 * {
   margin: 0;
@@ -233,7 +248,7 @@ html {
 
 .iconos {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 12rem 12rem;
   text-align: center;
   justify-content: center;
@@ -242,20 +257,20 @@ html {
   margin-top: 3rem;
   font-size: 1.5rem; }
 
-.cursosBody {
-  position: relative; }
-
 @media only screen and (min-width: 768px) {
   .paginaPrincipal {
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto; }
   .docentes {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     font-size: 1.5rem; }
   .iconos {
     grid-template-columns: 1fr 1fr 1fr;
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .cursosBody {
+    position: relative;
+    height: 78rem; } }
 
 @media only screen and (min-width: 1024px) {
   .docentes {
@@ -269,7 +284,9 @@ html {
     grid-template-rows: 40rem; }
   .iconos {
     font-size: 2rem;
-    margin: 6.3rem; } }
+    margin: 6.3rem; }
+  .cursosBody {
+    position: relative; } }
 
 table {
   margin-top: 2rem; }

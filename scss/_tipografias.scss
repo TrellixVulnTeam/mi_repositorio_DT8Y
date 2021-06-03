@@ -23,10 +23,6 @@
 .links{
     color: black;
     font-size: 1.5rem;
-    position: absolute;
-    bottom: 0px;
-    right: 20px;
-
 }
 
 .links2{
@@ -36,7 +32,7 @@
 .texto{
     text-align: center;
     font-size: 2rem;
-    margin: 0.5rem;
+    margin: 1rem;
 }
 .espacios{
     margin: 1rem;
@@ -67,6 +63,9 @@
     }
     .links{
         font-size: 2rem;
+        position: absolute;
+        bottom: 0px;
+        right: 14px;
     }
     .texto{
         font-size: 2.2rem;
@@ -78,6 +77,10 @@
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-rows: auto;
+    }
+    .textoDocentes{
+        margin-top: 2rem;
+
     }
 }
 
@@ -97,6 +100,9 @@
     }
     .links{
         font-size: 2.5rem;
+        position: absolute;
+        bottom: 0px;
+        right: 20px;
     }
     .texto{
         font-size: 2.5rem;
