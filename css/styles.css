@@ -21,9 +21,10 @@
 
 @media only screen and (min-width: 1024px) {
   .header_imagenHeader {
-    width: 200px; }
+    width: 200px;
+    margin: 2rem 55rem 2rem 2rem; }
   .header_menu {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     margin: 0.3rem; } }
 
 .footer {
@@ -54,9 +55,10 @@
 
 .footer_right {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  margin: 1.2rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  margin: 14rem;
   font-size: 1.2rem; }
 
 @media only screen and (min-width: 768px) {
@@ -105,7 +107,10 @@
 
 .links {
   color: black;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 0px;
+  right: 20px; }
 
 .links2 {
   color: black;
@@ -151,7 +156,8 @@
 
 @media only screen and (min-width: 1024px) {
   .titulos {
-    font-size: 4rem; }
+    font-size: 4.5rem;
+    margin: 4rem; }
   .subtitulos {
     font-size: 3.5rem; }
   .subtitulos2 {
@@ -160,7 +166,8 @@
   .links {
     font-size: 2.5rem; }
   .texto {
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    margin: 4rem; }
   .espacios {
     margin: 2rem 1rem 4rem 1rem; } }
 
@@ -173,9 +180,17 @@
   height: 20rem;
   margin: 1.3rem; }
 
+.imgFooter {
+  width: 4rem;
+  height: 4rem;
+  margin: 4rem; }
+
 .imgDocentes {
-  width: 200px;
-  height: 150px; }
+  width: 250px;
+  height: 200px; }
+
+.imgContacto {
+  width: 40px; }
 
 @media only screen and (min-width: 768px) {
   .imagenCiudades {
@@ -227,6 +242,9 @@ html {
   margin-top: 3rem;
   font-size: 1.5rem; }
 
+.cursosBody {
+  position: relative; }
+
 @media only screen and (min-width: 768px) {
   .paginaPrincipal {
     grid-template-columns: auto auto auto auto;
@@ -277,7 +295,7 @@ table {
 
 @media only screen and (min-width: 1024px) {
   table {
-    margin-top: 2.5rem; }
+    margin: 2.5rem 2rem 2.5rem 2rem; }
     table .titulosTabla {
       font-size: 2.5rem; }
     table .bodyTabla {

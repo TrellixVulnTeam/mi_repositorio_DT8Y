@@ -30,9 +30,10 @@ $footer-font3: 2rem;
 }
 .footer_right{
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin: 1.2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin: 14rem;
     font-size: $footer-font;
 }
 @media only screen and (min-width: 768px) {
