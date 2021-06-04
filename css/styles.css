@@ -135,7 +135,8 @@
 
 @media only screen and (min-width: 768px) {
   .titulos {
-    font-size: 3.5rem; }
+    font-size: 3.5rem;
+    margin: 4rem; }
   .subtitulos {
     font-size: 3rem; }
   .subtitulos2 {
