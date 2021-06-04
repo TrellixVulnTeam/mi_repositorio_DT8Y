@@ -22,6 +22,14 @@
 @media only screen and (min-width: 1024px) {
   .header_imagenHeader {
     width: 200px;
+    margin: 2rem 24rem 2rem 2rem; }
+  .header_menu {
+    font-size: 2.4rem;
+    margin: 0.3rem; } }
+
+@media only screen and (min-width: 1300px) {
+  .header_imagenHeader {
+    width: 200px;
     margin: 2rem 55rem 2rem 2rem; }
   .header_menu {
     font-size: 2.4rem;
@@ -213,11 +221,11 @@
 
 @media only screen and (min-width: 1024px) {
   .imagenCiudades {
-    width: 250px;
-    height: 200px; }
+    width: 230px;
+    height: 180px; }
   .videos {
-    width: 37rem;
-    height: 25rem; }
+    width: 28rem;
+    height: 16rem; }
   .imgFooter {
     width: 4rem;
     height: 4rem;
@@ -292,7 +300,12 @@ html {
     margin: 6.3rem; }
   .cursosBody {
     position: relative;
-    height: 80rem; } }
+    height: 100rem; } }
+
+@media only screen and (min-width: 1300px) {
+  .cursosBody {
+    position: relative;
+    height: 75rem; } }
 
 table {
   margin-top: 2rem; }
