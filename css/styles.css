@@ -136,17 +136,17 @@
 @media only screen and (min-width: 768px) {
   .titulos {
     font-size: 3.5rem;
-    margin: 6rem; }
+    margin-top: 4rem; }
   .subtitulos {
     font-size: 3rem; }
   .subtitulos2 {
-    font-size: 3rem;
-    margin-top: 6rem; }
+    font-size: 2rem;
+    margin-top: 4rem; }
   .links {
     font-size: 2rem;
     position: absolute;
     bottom: 0px;
-    right: 14px; }
+    right: 50px; }
   .texto {
     font-size: 2.2rem; }
   .espacios {
@@ -156,7 +156,7 @@
     grid-template-columns: auto auto auto;
     grid-template-rows: auto; }
   .textoDocentes {
-    margin-top: 4rem; } }
+    margin: 4rem 2rem 0rem 0rem; } }
 
 @media only screen and (min-width: 1024px) {
   .titulos {
@@ -201,15 +201,15 @@
 
 @media only screen and (min-width: 768px) {
   .imagenCiudades {
-    width: 150px;
-    height: 100px; }
+    width: 200px;
+    height: 150px; }
   .videos {
     width: 22rem;
     height: 15rem;
     margin: 1.3rem; }
   .imgDocentes {
-    width: 200px;
-    height: 150px; } }
+    width: 180px;
+    height: 130px; } }
 
 @media only screen and (min-width: 1024px) {
   .imagenCiudades {
@@ -261,10 +261,10 @@ html {
 
 @media only screen and (min-width: 768px) {
   .paginaPrincipal {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto; }
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto; }
   .docentes {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
     grid-template-rows: auto;
     font-size: 1.5rem; }
   .iconos {
@@ -272,9 +272,12 @@ html {
     font-size: 1.5rem; }
   .cursosBody {
     position: relative;
-    height: 78rem; } }
+    height: 50rem; } }
 
 @media only screen and (min-width: 1024px) {
+  .paginaPrincipal {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto; }
   .docentes {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
@@ -288,7 +291,8 @@ html {
     font-size: 2rem;
     margin: 6.3rem; }
   .cursosBody {
-    position: relative; } }
+    position: relative;
+    height: 80rem; } }
 
 table {
   margin-top: 2rem; }
