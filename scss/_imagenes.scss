@@ -22,8 +22,8 @@
 }
 @media only screen and (min-width: 768px) {
     .imagenCiudades{
-        width: 200px;
-        height: 150px;
+        width: 250px;
+        height: 200px;
     }
     .videos{
         width: 22rem;
@@ -53,5 +53,36 @@
     .imgDocentes{
         width: 250px;
         height: 200px;
+    }
+}
+@media only screen and (min-width: 1400px) {  
+    .imagenCiudades{
+        width: 260px;
+        height: 210px;
+    }
+    .videos{
+        width: 36rem;
+        height: 24rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {  
+    .imagenCiudades{
+        width: 290px;
+        height: 240px;
+    }
+    .videos{
+        width: 40rem;
+        height: 28rem;
+    }
+}
+@media only screen and (min-width: 1800px) {  
+    .imagenCiudades{
+        width: 290px;
+        height: 240px;
+    }
+    .videos{
+        width: 44rem;
+        height: 32rem;
     }
 }

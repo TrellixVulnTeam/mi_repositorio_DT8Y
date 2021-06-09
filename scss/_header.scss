@@ -48,3 +48,16 @@
         margin: 0.3rem;
     }
 } 
+
+@media only screen and (min-width: 1600px) {  
+    .header_imagenHeader{
+        margin: 2rem 75rem 2rem 2rem;
+    }
+    
+} 
+@media only screen and (min-width: 1800px) {  
+    .header_imagenHeader{
+        margin: 2rem 95rem 2rem 2rem;
+    }
+    
+} 

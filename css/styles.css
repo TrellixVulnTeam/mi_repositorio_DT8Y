@@ -35,6 +35,14 @@
     font-size: 2.4rem;
     margin: 0.3rem; } }
 
+@media only screen and (min-width: 1600px) {
+  .header_imagenHeader {
+    margin: 2rem 75rem 2rem 2rem; } }
+
+@media only screen and (min-width: 1800px) {
+  .header_imagenHeader {
+    margin: 2rem 95rem 2rem 2rem; } }
+
 .footer {
   background: white;
   background: linear-gradient(180deg, white 1%, #d0f4ba 24%, #b0ef8e 51%, #a1ef7a 76%);
@@ -110,7 +118,7 @@
 .subtitulos2 {
   font-size: 2.5rem;
   text-align: center;
-  margin: 0.5rem;
+  margin: 1.2rem;
   text-decoration: underline; }
 
 .links {
@@ -154,7 +162,7 @@
     font-size: 2rem;
     position: absolute;
     bottom: 0px;
-    right: 50px; }
+    right: 35px; }
   .texto {
     font-size: 2.2rem; }
   .espacios {
@@ -164,14 +172,15 @@
     grid-template-columns: auto auto auto;
     grid-template-rows: auto; }
   .textoDocentes {
-    margin: 4rem 2rem 0rem 0rem; } }
+    margin: 4rem 1rem 0rem 1rem; } }
 
 @media only screen and (min-width: 1024px) {
   .titulos {
     font-size: 4.5rem;
     margin: 4rem; }
   .subtitulos {
-    font-size: 3.5rem; }
+    font-size: 3.5rem;
+    margin-bottom: 4rem; }
   .subtitulos2 {
     margin: 2rem;
     font-size: 3rem; }
@@ -179,12 +188,24 @@
     font-size: 2.5rem;
     position: absolute;
     bottom: 0px;
-    right: 20px; }
+    right: 5px; }
   .texto {
     font-size: 2.5rem;
     margin: 4rem; }
   .espacios {
     margin: 2rem 1rem 4rem 1rem; } }
+
+@media only screen and (min-width: 1400px) {
+  .links {
+    right: 25px; } }
+
+@media only screen and (min-width: 1600px) {
+  .links {
+    right: 40px; } }
+
+@media only screen and (min-width: 1800px) {
+  .links {
+    right: 60px; } }
 
 .imagenCiudades {
   width: 250px;
@@ -209,8 +230,8 @@
 
 @media only screen and (min-width: 768px) {
   .imagenCiudades {
-    width: 200px;
-    height: 150px; }
+    width: 250px;
+    height: 200px; }
   .videos {
     width: 22rem;
     height: 15rem;
@@ -233,6 +254,30 @@
   .imgDocentes {
     width: 250px;
     height: 200px; } }
+
+@media only screen and (min-width: 1400px) {
+  .imagenCiudades {
+    width: 260px;
+    height: 210px; }
+  .videos {
+    width: 36rem;
+    height: 24rem; } }
+
+@media only screen and (min-width: 1600px) {
+  .imagenCiudades {
+    width: 290px;
+    height: 240px; }
+  .videos {
+    width: 40rem;
+    height: 28rem; } }
+
+@media only screen and (min-width: 1800px) {
+  .imagenCiudades {
+    width: 290px;
+    height: 240px; }
+  .videos {
+    width: 44rem;
+    height: 32rem; } }
 
 * {
   margin: 0;
@@ -267,6 +312,9 @@ html {
   margin-top: 3rem;
   font-size: 1.5rem; }
 
+.paginaContacto {
+  margin-left: 38px; }
+
 @media only screen and (min-width: 768px) {
   .paginaPrincipal {
     grid-template-columns: auto auto;
@@ -280,7 +328,9 @@ html {
     font-size: 1.5rem; }
   .cursosBody {
     position: relative;
-    height: 50rem; } }
+    height: 55rem; }
+  .paginaContacto {
+    margin-left: 50px; } }
 
 @media only screen and (min-width: 1024px) {
   .paginaPrincipal {
@@ -302,10 +352,17 @@ html {
     position: relative;
     height: 100rem; } }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1400px) {
   .cursosBody {
-    position: relative;
     height: 75rem; } }
+
+@media only screen and (min-width: 1600px) {
+  .cursosBody {
+    height: 70rem; } }
+
+@media only screen and (min-width: 1800px) {
+  .cursosBody {
+    height: 67rem; } }
 
 table {
   margin-top: 2rem; }

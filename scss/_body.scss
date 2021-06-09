@@ -33,6 +33,9 @@ html{
     margin-top: 3rem;
     font-size: 1.5rem;
 }
+.paginaContacto{
+    margin-left: 38px;
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -52,7 +55,10 @@ html{
     }
     .cursosBody{
         position: relative;
-        height: 50rem;
+        height: 55rem;
+    }
+    .paginaContacto{
+        margin-left: 50px;
     }
 }
 
@@ -83,9 +89,19 @@ html{
     }
 }
 
-@media only screen and (min-width: 1300px) {  
+@media only screen and (min-width: 1400px) {  
     .cursosBody{
-        position: relative;
         height:75rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {  
+    .cursosBody{
+        height:70rem;
+    }
+}
+@media only screen and (min-width: 1800px) {  
+    .cursosBody{
+        height:67rem;
     }
 }
