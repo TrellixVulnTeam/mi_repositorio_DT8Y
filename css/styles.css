@@ -207,6 +207,10 @@
   .links {
     right: 60px; } }
 
+@media only screen and (min-width: 2000px) {
+  .links {
+    right: 90px; } }
+
 .imagenCiudades {
   width: 250px;
   height: 180px; }
