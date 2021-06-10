@@ -85,7 +85,16 @@
 
     }
 }
-
+@media only screen and (min-width: 850px) {  
+    .links{
+        right: 55px;
+    }
+}
+@media only screen and (min-width: 950px) {  
+    .links{
+        right: 75px;
+    }
+}
 @media only screen and (min-width: 1024px) {  
     .titulos{
         font-size: 4.5rem;
