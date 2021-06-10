@@ -1,19 +1,1 @@
-MAS DE 1600PX
-Cursos: 
-- Achicar cuadros y agregar margenes
-
-1024PX16
-Cursos: 
-- Achicar cuadros y agregar margenes
-
-768PX
-Cursos: 
-- Achicar cuadros y agregar margenes
-
-480PX
-Cursos: 
-- Achicar cuadros y agregar margenes
-
-
-
 

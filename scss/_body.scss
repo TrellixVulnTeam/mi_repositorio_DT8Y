@@ -93,7 +93,11 @@ html{
         height:100rem;
     }
 }
-
+@media only screen and (min-width: 1150px) {  
+    .cursosBody{
+        height:95rem;
+    }
+}
 @media only screen and (min-width: 1300px) {  
     .cursosBody{
         height:80rem;
