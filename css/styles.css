@@ -356,7 +356,7 @@ html {
     position: relative;
     height: 80rem; } }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1300px) {
   .cursosBody {
     height: 75rem; } }
 
