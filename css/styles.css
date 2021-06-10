@@ -369,7 +369,8 @@ html {
     height: 67rem; } }
 
 table {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  max-width: 90%; }
   table .table_titulosTabla {
     margin: 0.5rem;
     font-size: 1.5rem;
@@ -397,3 +398,7 @@ table {
       font-size: 2.5rem; }
     table .bodyTabla {
       font-size: 2rem; } }
+
+@media only screen and (min-width: 1300px) {
+  table {
+    max-width: 80%; } }
