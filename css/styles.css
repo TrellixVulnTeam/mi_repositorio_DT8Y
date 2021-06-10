@@ -319,6 +319,12 @@ html {
 .paginaContacto {
   margin-left: 38px; }
 
+.tablasCentradas {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  justify-content: center; }
+
 @media only screen and (min-width: 768px) {
   .paginaPrincipal {
     grid-template-columns: auto auto;
@@ -401,4 +407,4 @@ table {
 
 @media only screen and (min-width: 1300px) {
   table {
-    max-width: 80%; } }
+    max-width: 70%; } }
