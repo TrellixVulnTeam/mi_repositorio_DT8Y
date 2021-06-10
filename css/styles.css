@@ -209,7 +209,7 @@
 
 @media only screen and (min-width: 1900px) {
   .links {
-    right: 90px; } }
+    right: 95px; } }
 
 .imagenCiudades {
   width: 250px;
@@ -360,11 +360,11 @@ html {
     margin: 6.3rem; }
   .cursosBody {
     position: relative;
-    height: 80rem; } }
+    height: 100rem; } }
 
 @media only screen and (min-width: 1300px) {
   .cursosBody {
-    height: 75rem; } }
+    height: 80rem; } }
 
 @media only screen and (min-width: 1600px) {
   .cursosBody {
