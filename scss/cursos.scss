@@ -20,10 +20,10 @@ table{
 @media only screen and (min-width: 768px) {
     table{
         margin-top: 2.5rem;
-            .titulosTabla{
+            .table_titulosTabla{
                 font-size: 2.5rem;
         }
-        .bodyTabla{
+        .tabla_bodyTabla{
             font-size: 2rem;
         }
     }
@@ -32,17 +32,18 @@ table{
 @media only screen and (min-width: 1024px) {  
     table{
         margin: 2.5rem 2rem 2.5rem 2rem;
-            .titulosTabla{
+            .table_titulosTabla{
                 font-size: 2.5rem;
             }
-            .bodyTabla{
-                font-size: 2rem;
+            .tabla_bodyTabla{
+                font-size: 2.5rem;
             }
     }
 }
 @media only screen and (min-width: 1300px) {  
     table{
         max-width: 70%;
+        margin: 4rem;
     }
 
 }
