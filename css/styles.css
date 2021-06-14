@@ -119,6 +119,12 @@
   margin: 1.2rem;
   text-decoration: underline; }
 
+.subtitulos3 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 1.2rem;
+  text-decoration: underline; }
+
 .links {
   color: black;
   font-size: 1.5rem; }
@@ -160,6 +166,8 @@
   .subtitulos2 {
     font-size: 2rem;
     margin-top: 4rem; }
+  .subtitulos3 {
+    font-size: 2rem; }
   .links {
     font-size: 2rem;
     position: absolute;
@@ -353,7 +361,7 @@ html {
     font-size: 1.5rem; }
   .cursosBody {
     position: relative;
-    height: 55rem; }
+    height: 60rem; }
   .paginaContacto {
     margin-left: 50px; } }
 
@@ -375,7 +383,7 @@ html {
     margin: 6.3rem; }
   .cursosBody {
     position: relative;
-    height: 102rem; } }
+    height: 104rem; } }
 
 @media only screen and (min-width: 1150px) {
   .cursosBody {
