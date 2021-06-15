@@ -60,6 +60,23 @@
     width: 5rem;
 }
 
+.botonesContacto{
+    font-size: 15rem;
+    margin-top: 2rem;
+}
+.consultas{
+    margin-top: 1rem;
+    height: 4rem;
+}
+.consultas1{
+    margin-top: 1rem;
+    height: 6rem;
+}
+.checkbox{
+    margin-top: 1rem;  
+    height: 2rem;
+}
+
 @media only screen and (min-width: 768px) {
     .titulos{
         font-size: 3.5rem;
@@ -97,6 +114,22 @@
     .textoDocentes{
         margin: 4rem 1rem 0rem 1rem;
 
+    }
+  
+    .botonesContacto{
+        margin-top: 2rem;
+    }
+    .consultas{
+        margin-top: 2rem;
+        height: 3rem;
+    }
+    .consultas1{
+        margin-top: 2rem;
+        height: 6rem;
+    }
+    .checkbox{
+        margin-top: 1rem;  
+        height: 2rem;
     }
 }
 @media only screen and (min-width: 850px) {  
