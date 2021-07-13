@@ -5,10 +5,6 @@ let cursoRuso = 700
 let cursoItaliano = 900
 let cursoFrances = 1000
 
-function precios() {
-    alert("Los cursos tiene un costo de " + (cursoAleman + cursoRuso + cursoItaliano + cursoFrances))
-}
-
 switch (seleccion.toLocaleUpperCase()){
     case "ALEMAN":
         alert("El curso de Aleman tiene un costo de " + cursoAleman);
@@ -69,3 +65,18 @@ class Alumno{
 }
 const alumno1 = new Alumno(nombreIngresado, apellidoIngresado, edadIngresada, emailIngresado);
 alumno1.hablar();
+
+class Cursos{
+    constructor(docente, materialDeEstudio, dia, horario) {
+        this.docente = docente;
+        this.materialDeEstudio = materialDeEstudio;
+        this.dia = dia;
+        this.horario = horario;
+    }
+    inscripcion(){
+        alert("Bienvenid@, las clases seran dictadas por " + this.docente + " los dias " + this.dia + " a las " + this.horario);
+    }
+}
+
+const InscriptoCurso = new Cursos("Graciela Wamba", "Con libros", "Martes", "20.00 hs");
+InscriptoCurso.inscripcion();
