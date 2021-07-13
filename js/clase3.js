@@ -87,4 +87,4 @@ const alumno4 = new Alumno("Josefina", "Gomez", 20, "jgomez@gmail.com");
 
 let arrayAlumnos = [alumno1,alumno2,alumno3,alumno4];
 
-console.log(arrayAlumnos)
+console.log(arrayAlumnos.sort());
