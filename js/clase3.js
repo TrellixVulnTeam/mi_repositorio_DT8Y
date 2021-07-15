@@ -87,4 +87,16 @@ const alumno4 = new Alumno("Josefina", "Gomez", 20, "jgomez@gmail.com");
 
 let arrayAlumnos = [alumno1,alumno2,alumno3,alumno4];
 
-console.log(arrayAlumnos.sort());
+
+  arrayAlumnos.sort(function (a, b) {
+    if (a.nombre > b.nombre) {
+      return 1;
+    }
+    if (a.nombre < b.nombre) {
+      return -1;
+    }
+    // a must be equal to b
+    return 0;
+  });
+
+ alert(arrayAlumnos)
