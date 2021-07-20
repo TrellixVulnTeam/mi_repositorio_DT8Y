@@ -35,7 +35,7 @@ function precios() {
 
 switch (libros.toUpperCase()){
         case "SI":
-            alert(precios())
+            precios()
             console.log("La ganancia en la venta de libros es " + (costoLibros * 0.5))
             break;
         case "NO":
@@ -87,16 +87,56 @@ const alumno4 = new Alumno("Josefina", "Gomez", 20, "jgomez@gmail.com");
 
 let arrayAlumnos = [alumno1,alumno2,alumno3,alumno4];
 
-
-  arrayAlumnos.sort(function (a, b) {
-    if (a.nombre > b.nombre) {
+arrayAlumnos.sort(function (a, b) {
+    if (a.nombre.toUpperCase() > b.nombre.toUpperCase()) {
       return 1;
     }
-    if (a.nombre < b.nombre) {
+    if (a.nombre.toUpperCase() < b.nombre.toUpperCase()) {
       return -1;
     }
-    // a must be equal to b
     return 0;
   });
+  console.log(arrayAlumnos);
 
- alert(arrayAlumnos)
+
+const objeto = [
+	{	
+		arquero: "Juan",
+		defensor1: "Miguel",
+		defensor2: "Hernán",
+		medio: "Armando",
+		delantero1: "Jorge",
+		delantero2: "José",
+	},
+	{	
+		arquero: "Marcelo",
+		defensor1: "Hernán",
+		defensor2: "Matías",
+		medio: "Armando",
+		delantero1: "José",
+		delantero2: "Julián",
+	},
+]
+
+
+const hacerLista = (objeto) => {
+	let html = "";
+
+	let servicios = document.getElementById("servicios");
+
+	for (let i = 0 ; i < objeto.length; i++) {
+		let ul = document.createElement("ul");
+
+		for (let clave in objeto[i]) {
+			let li = document.createElement("li")
+			/*console.log(clave);
+			console.log(objeto[i][clave]);*/
+			li.textContent = clave + ": " + objeto[i][clave];
+			ul.appendChild(li);
+		}
+		servicios.appendChild(ul);
+	}
+
+}
+
+hacerLista(objeto);
