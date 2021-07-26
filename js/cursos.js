@@ -57,7 +57,6 @@ const hacerTabla = (objeto) => {
 		for (let clave in objeto[i]) {
 			let celda = document.createElement("td");
 			celda.textContent = objeto[i][clave];
-			console.log(objeto[i][clave]);
 			fila.appendChild(celda);
 		}
 		

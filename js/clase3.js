@@ -99,44 +99,58 @@ arrayAlumnos.sort(function (a, b) {
   console.log(arrayAlumnos);
 
 
-const objeto = [
-	{	
-		arquero: "Juan",
-		defensor1: "Miguel",
-		defensor2: "Hernán",
-		medio: "Armando",
-		delantero1: "Jorge",
-		delantero2: "José",
-	},
-	{	
-		arquero: "Marcelo",
-		defensor1: "Hernán",
-		defensor2: "Matías",
-		medio: "Armando",
-		delantero1: "José",
-		delantero2: "Julián",
-	},
-]
+
+let botonAleman = document.getElementById("btnAleman")
+      botonAleman.onclick = () =>{alert("Se han inscripto a el curso de aleman")}
+
+let botonRuso = document.getElementById("btnRuso")
+      botonRuso.onclick = () =>{alert("Se han inscripto a el curso de ruso")}
+
+let botonItaliano = document.getElementById("btnItaliano")
+      botonItaliano.onclick = () =>{alert("Se han inscripto a el curso de italiano")}
+
+let botonFrances = document.getElementById("btnFrances")
+      botonFrances.onclick = () =>{alert("Se han inscripto a el curso de frances")}
 
 
-const hacerLista = (objeto) => {
-	let html = "";
 
-	let servicios = document.getElementById("servicios");
+const imgAleman = document.getElementById("cardUno");
+const imgRuso = document.getElementById("cardDos");
+const imgItaliano = document.getElementById("cardTres");
+const imgFrances = document.getElementById("cardCuatro");
 
-	for (let i = 0 ; i < objeto.length; i++) {
-		let ul = document.createElement("ul");
+const alemanTexto = document.getElementById("textoUno");
+const rusoTexto = document.getElementById("textoDos");
+const italianoTexto = document.getElementById("textoTres");
+const francesTexto = document.getElementById("textoCuatro");
 
-		for (let clave in objeto[i]) {
-			let li = document.createElement("li")
-			/*console.log(clave);
-			console.log(objeto[i][clave]);*/
-			li.textContent = clave + ": " + objeto[i][clave];
-			ul.appendChild(li);
-		}
-		servicios.appendChild(ul);
-	}
+imgAleman.addEventListener("mouseover", function() {
+    alemanTexto.style.display = "block";
+});
+imgRuso.addEventListener("mouseover", function() {
+    rusoTexto.style.display = "block";
+});
 
-}
+imgItaliano.addEventListener("mouseover", function() {
+    italianoTexto.style.display = "block";
+});
 
-hacerLista(objeto);
+imgFrances.addEventListener("mouseover", function() {
+    francesTexto.style.display = "block";
+});
+
+
+imgAleman.addEventListener("mouseover", function() {
+    alemanTexto.style.display = "none";
+});
+imgRuso.addEventListener("mouseover", function() {
+    rusoTexto.style.display = "none";
+});
+
+imgItaliano.addEventListener("mouseover", function() {
+    italianoTexto.style.display = "none";
+});
+
+imgFrances.addEventListener("mouseover", function() {
+    francesTexto.style.display = "none";
+});
