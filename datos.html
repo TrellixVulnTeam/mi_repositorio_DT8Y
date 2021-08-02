@@ -3,18 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Cursos de Idiomas Berlin Atelier">
+    <meta name="keywords" content="idiomas, berlin, aleman, ruso, frances, italiano, curso de aleman, curso de ruso, curso de frances, curso de italiano, estudiar aleman, estudiar ruso, estudiar frances, estudiar italiano, estudiar idiomas">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="shortcut icon" href="BERLIN TRANSPARENTE.png">
 </head>
 <body>
-    <form id="formulario">
-        <input id="Nombre" type="text">
-        <input id="Apellido" type="text">
-        <input id="Edad" type="number">
-        <input id="Email" type="text">
-        <input type="submit" value="Enviar">
-      </form>
-
-<script src="js/java.js"></script>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a href="index.html"><img src="images/berlin_transparente.png" class="header_imagenHeader"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse derecha" id="navbarNav">
+                    <ul class="navbar-nav header_derecha">
+                        <li class="nav-item">
+                            <a class="nav-link header_menu" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle header_menu" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Cursos</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item header_menu" href="Cursos.html">Aleman</a></li>
+                              <li><a class="dropdown-item header_menu" href="Cursos.html">Ruso</a></li>
+                              <li><a class="dropdown-item header_menu" href="Cursos.html">Italiano</a></li>
+                              <li><a class="dropdown-item header_menu" href="Cursos.html">Frances</a></li>
+                            </ul>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link header_menu" href="Docentes.html">Docentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header_menu" href="quienes.somos.html">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header_menu" href="Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h1 class="titulos animate__animated animate__jackInTheBox"> Completa tus datos </h1>
+    <center>
+    <div id="datosPersonales">
+	    <h2>Ingresa tu nombre completo</h2> 
+	    <input id="nombre" type="text">
+        <h2>Ingresa tu edad</h2> 
+	    <input id="edad" type="text">
+        <h2>Ingresa tu email</h2> 
+	    <input id="email" type="text">
+    </div>
+    <form id="datosCurso">
+        <label for="cursoSeleccionado">Selecciona el curso </label> <br>
+        <select name="cursosIdiomas" id="cursosIdiomas">
+            <option value="seleccion">Seleccione una opción</option>	
+            <option value="cursoAleman">Aleman</option>	
+            <option value="cursoRuso">Ruso</option>	
+            <option value="cursoFrances">Frances</option>	
+            <option value="cursoItaliano">Italiano</option>	
+        </select><br>
+        <label for="nivelCurso">Selecciona el nivel del curso</label> <br>
+        <select name="nivelCurso" id="nivelCurso">
+            <option value="seleccion">Seleccione una opción</option>
+            <option value="inicial">Inical</option>	
+            <option value="intermedio">Intermedio</option>
+            <option value="avanzado">Avanzado</option>	
+            <option value="profesional">Profesional</option>	
+        </select><br>
+        <label for="materialDeEstudio">3-¿Te gustaria acceder al material de estudio?</label> <br><!--aderezo-->
+        <select name="materialDeEstudio" id="materialDeEstudio">
+            <option value="seleccion">Seleccione una opción</option>
+            <option value="SI">Si</option>	
+            <option value="NO">No</option>
+        </select><br>
+        <button type="button" id="botonCurso">Ingresar</button>
+        <div id="errorNombre"></div>
+        <div id="aceptado"></div>
+    </form>
+    </center>
+    <script src="js/datos.js"></script>
 </body>
 </html>

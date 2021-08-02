@@ -113,44 +113,4 @@ let botonFrances = document.getElementById("btnFrances")
       botonFrances.onclick = () =>{alert("Se han inscripto a el curso de frances")}
 
 
-
-const imgAleman = document.getElementById("cardUno");
-const imgRuso = document.getElementById("cardDos");
-const imgItaliano = document.getElementById("cardTres");
-const imgFrances = document.getElementById("cardCuatro");
-
-const alemanTexto = document.getElementById("textoUno");
-const rusoTexto = document.getElementById("textoDos");
-const italianoTexto = document.getElementById("textoTres");
-const francesTexto = document.getElementById("textoCuatro");
-
-imgAleman.addEventListener("mouseover", function() {
-    alemanTexto.style.display = "block";
-});
-imgRuso.addEventListener("mouseover", function() {
-    rusoTexto.style.display = "block";
-});
-
-imgItaliano.addEventListener("mouseover", function() {
-    italianoTexto.style.display = "block";
-});
-
-imgFrances.addEventListener("mouseover", function() {
-    francesTexto.style.display = "block";
-});
-
-
-imgAleman.addEventListener("mouseover", function() {
-    alemanTexto.style.display = "none";
-});
-imgRuso.addEventListener("mouseover", function() {
-    rusoTexto.style.display = "none";
-});
-
-imgItaliano.addEventListener("mouseover", function() {
-    italianoTexto.style.display = "none";
-});
-
-imgFrances.addEventListener("mouseover", function() {
-    francesTexto.style.display = "none";
-});
+const enJSON = JSON.stringify(alumno1)
