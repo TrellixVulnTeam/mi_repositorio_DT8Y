@@ -1,4 +1,4 @@
-
+/*
 let seleccion = prompt("¿Que idioma te gustaria aprender?")
 let cursoAleman = 800
 let cursoRuso = 700
@@ -80,7 +80,7 @@ class Cursos{
 
 const InscriptoCurso = new Cursos("Graciela Wamba", "Con libros", "Martes", "20.00 hs");
 InscriptoCurso.inscripcion();
-
+*/
 const alumno2 = new Alumno("Juan", "Perez", 25, "jperez@gmail.com");
 const alumno3 = new Alumno("Martina", "Gonzales", 35, "mgonzalez@gmail.com");
 const alumno4 = new Alumno("Josefina", "Gomez", 20, "jgomez@gmail.com");
