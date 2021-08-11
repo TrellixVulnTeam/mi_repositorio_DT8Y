@@ -1,3 +1,4 @@
+$(() => {
 const docente1 = document.getElementById("cardUno");
 const docente2 = document.getElementById("cardDos");
 const docente3 = document.getElementById("cardTres");
@@ -28,4 +29,7 @@ docente2.addEventListener("mouseout", function() {
 
 docente3.addEventListener("mouseout", function() {
     docente3Texto.style.display = "none";
+});
+
+$("#tituloDocentes").fadeOut()
 });
