@@ -30,6 +30,6 @@ docente2.addEventListener("mouseout", function() {
 docente3.addEventListener("mouseout", function() {
     docente3Texto.style.display = "none";
 });
-
-$("#tituloDocentes").fadeOut()
+/*
+$("#tituloDocentes").fadeOut()*/
 });
