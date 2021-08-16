@@ -10,12 +10,9 @@ $( document ).ready(function() {
   
         const tpl = data.map(user => `<li>${user.name}, ${user.email}</li>`);
         HTMLResponse.innerHTML = `<ul>${tpl}</ul>`
-  
       }
     }
   xhr.addEventListener("load", onRequestHandler);
   xhr.open("GET", `${API_URL}/users`);
   xhr.send();
-  
-  
   });
