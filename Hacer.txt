@@ -1,0 +1,18 @@
+- Cursos
+	Ver cuadro
+	Tamaño
+	Texto
+
+
+-Contacto
+	Arreglar el enviar y el reestablecer
+
+- Datos
+	Arreglar tamaños
+	distribucion
+	pregunta
+	ingresar
+	agregar qr de whatsapp
+
+-index 
+	Ver JS
