@@ -52,41 +52,48 @@
     </header>
     <h1 class="titulos animate__animated animate__jackInTheBox"> Completa tus datos </h1>
     <center>
-    <div id="datosPersonales">
-	    <h2>Ingresa tu nombre completo</h2> 
-	    <input id="nombre" type="text">
-        <h2>Ingresa tu edad</h2> 
-	    <input id="edad" type="text">
-        <h2>Ingresa tu email</h2> 
-	    <input id="email" type="text">
-    </div>
-    <form id="datosCurso">
-        <label for="cursoSeleccionado">Selecciona el curso </label> <br>
-        <select name="cursosIdiomas" id="cursosIdiomas">
-            <option value="seleccion">Seleccione una opción</option>	
-            <option value="cursoAleman">Aleman</option>	
-            <option value="cursoRuso">Ruso</option>	
-            <option value="cursoFrances">Frances</option>	
-            <option value="cursoItaliano">Italiano</option>	
-        </select><br>
-        <label for="nivelCurso">Selecciona el nivel del curso</label> <br>
-        <select name="nivelCurso" id="nivelCurso">
-            <option value="seleccion">Seleccione una opción</option>
-            <option value="inicial">Inical</option>	
-            <option value="intermedio">Intermedio</option>
-            <option value="avanzado">Avanzado</option>	
-            <option value="profesional">Profesional</option>	
-        </select><br>
-        <label for="materialDeEstudio">3-¿Te gustaria acceder al material de estudio?</label> <br><!--aderezo-->
-        <select name="materialDeEstudio" id="materialDeEstudio">
-            <option value="seleccion">Seleccione una opción</option>
-            <option value="SI">Si</option>	
-            <option value="NO">No</option>
-        </select><br>
-        <button type="button" id="botonCurso">Ingresar</button>
-        <div id="errorNombre"></div>
-        <div id="aceptado"></div>
-    </form>
+        <div id="formularioDatos">
+            <div id="datosPersonales">
+                <h2>Ingresa tu nombre completo</h2>
+                <input id="nombre" type="text">
+                <h2>Ingresa tu edad</h2>
+                <input id="edad" type="text">
+                <h2>Ingresa tu email</h2>
+                <input id="email" type="text">
+            </div>
+            <form id="datosCurso">
+                <label for="cursoSeleccionado">¿Que idioma te gustaria aprender? </label> <br>
+                <select name="cursosIdiomas" id="cursosIdiomas">
+                    <option value="seleccion">Seleccione una opción</option>
+                    <option value="cursoAleman">Aleman</option>
+                    <option value="cursoRuso">Ruso</option>
+                    <option value="cursoFrances">Frances</option>
+                    <option value="cursoItaliano">Italiano</option>
+                </select><br>
+                <label for="nivelCurso">¿Que nivel te gustaria aprender?</label> <br>
+                <select name="nivelCurso" id="nivelCurso">
+                    <option value="seleccion">Seleccione una opción</option>
+                    <option value="inicial">Inical</option>
+                    <option value="intermedio">Intermedio</option>
+                    <option value="avanzado">Avanzado</option>
+                    <option value="profesional">Profesional</option>
+                </select><br>
+                <label for="materialDeEstudio">¿Te gustaria acceder al material de estudio?</label> <br>
+                
+                <select name="materialDeEstudio" id="materialDeEstudio">
+                    <option value="seleccion">Seleccione una opción</option>
+                    <option value="SI">Si</option>
+                    <option value="NO">No</option>
+                </select><br>
+                <button type="button" id="botonCurso">Ingresar</button>
+                <div id="errorNombre"></div>
+                <div id="aceptado"></div>
+            </form>
+        </div>
+        <div id="codigoQr" style="display: none;" > 
+            <p class="texto"> Accede a este Codigo QR para completar el pago</p>
+            <img src="images/codigoQr.png" alt="">
+        </div>
     </center>
     <script src="js/datos.js"></script>
 </body>

@@ -12,7 +12,7 @@ $(() => {
 		}
 	
 		cursoCompletado(){
-			alert("Accede a este codigo QR para concretar el pago")
+			codigoFinal.style.display = "block"
 		}
 		
 	}
@@ -24,6 +24,7 @@ $(() => {
 	let email = document.getElementById("email")
 	let botonNombre = document.getElementById("botonCurso")
 	let cursoSeleccion = new CursoSeleccion({nombre:"",edad:"",email:"",})
+	let codigoFinal = document.getElementById("codigoQr")
 	botonCurso.onclick = ingresar
 	aceptacion.onclick = datosCompletos
 	

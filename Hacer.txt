@@ -1,8 +1,3 @@
-- Cursos
-	Ver cuadro
-	Tamaño
-	Texto
-
 
 -Contacto
 	Arreglar el enviar y el reestablecer
@@ -13,6 +8,3 @@
 	pregunta
 	ingresar
 	agregar qr de whatsapp
-
--index 
-	Ver JS

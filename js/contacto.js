@@ -1,2 +1,12 @@
-function funcion_reiniciar(){
-    document.getElementById("contacto").reset()}
+var reseteandoFormulario 
+
+
+function enviarFormulario(){
+    console.log("Enviando formulario...");
+    return false;
+}
+
+function reseterarFormulario(){
+    reset("formulario");
+
+}
