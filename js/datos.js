@@ -12,7 +12,8 @@ $(() => {
 		}
 	
 		cursoCompletado(){
-			codigoFinal.style.display = "block"
+			codigoFinal.style.display = "block";
+			
 		}
 		
 	}
@@ -25,6 +26,7 @@ $(() => {
 	let botonNombre = document.getElementById("botonCurso")
 	let cursoSeleccion = new CursoSeleccion({nombre:"",edad:"",email:"",})
 	let codigoFinal = document.getElementById("codigoQr")
+	let fotosDatos = document.getElementById("datosfot")
 	botonCurso.onclick = ingresar
 	aceptacion.onclick = datosCompletos
 	
@@ -78,7 +80,8 @@ $(() => {
 	
 		if(error.innerHTML == ""){
 	
-		miFormulario.style.display = "none"
+		miFormulario.style.display = "none";
+		fotosDatos.style.display = "none";
 		cursoSeleccion.cursoCompletado()
 	
 		}

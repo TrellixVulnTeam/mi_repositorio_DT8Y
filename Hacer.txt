@@ -1,10 +1,8 @@
-
 -Contacto
-	Arreglar el enviar y el reestablecer
+	Arreglar reestablecer
 
 - Datos
 	Arreglar tamaños
 	distribucion
-	pregunta
 	ingresar
-	agregar qr de whatsapp
+	

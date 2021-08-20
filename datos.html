@@ -51,18 +51,18 @@
         </nav>
     </header>
     <h1 class="titulos animate__animated animate__jackInTheBox"> Completa tus datos </h1>
-    <center>
-        <div id="formularioDatos">
+    <div class="paginaDatos">
+        <div id="formularioDatos" class="datosTipografia">
             <div id="datosPersonales">
-                <h2>Ingresa tu nombre completo</h2>
+                <h2 class="textoDatos">Ingresa tu nombre completo</h2>
                 <input id="nombre" type="text">
-                <h2>Ingresa tu edad</h2>
+                <h2 class="textoDatos">Ingresa tu edad</h2>
                 <input id="edad" type="text">
-                <h2>Ingresa tu email</h2>
+                <h2 class="textoDatos">Ingresa tu email</h2>
                 <input id="email" type="text">
             </div>
             <form id="datosCurso">
-                <label for="cursoSeleccionado">¿Que idioma te gustaria aprender? </label> <br>
+                <label for="cursoSeleccionado" class="textoDatos">¿Que idioma te gustaria aprender? </label> <br>
                 <select name="cursosIdiomas" id="cursosIdiomas">
                     <option value="seleccion">Seleccione una opción</option>
                     <option value="cursoAleman">Aleman</option>
@@ -70,7 +70,7 @@
                     <option value="cursoFrances">Frances</option>
                     <option value="cursoItaliano">Italiano</option>
                 </select><br>
-                <label for="nivelCurso">¿Que nivel te gustaria aprender?</label> <br>
+                <label for="nivelCurso" class="textoDatos">¿Que nivel te gustaria aprender?</label> <br>
                 <select name="nivelCurso" id="nivelCurso">
                     <option value="seleccion">Seleccione una opción</option>
                     <option value="inicial">Inical</option>
@@ -78,23 +78,56 @@
                     <option value="avanzado">Avanzado</option>
                     <option value="profesional">Profesional</option>
                 </select><br>
-                <label for="materialDeEstudio">¿Te gustaria acceder al material de estudio?</label> <br>
-                
+                <label for="materialDeEstudio" class="textoDatos">¿Te gustaria acceder al material de estudio?</label> <br>
                 <select name="materialDeEstudio" id="materialDeEstudio">
                     <option value="seleccion">Seleccione una opción</option>
                     <option value="SI">Si</option>
                     <option value="NO">No</option>
                 </select><br>
-                <button type="button" id="botonCurso">Ingresar</button>
+                <button type="button" id="botonCurso" class="botonesContacto">Ingresar</button>
                 <div id="errorNombre"></div>
                 <div id="aceptado"></div>
             </form>
         </div>
-        <div id="codigoQr" style="display: none;" > 
-            <p class="texto"> Accede a este Codigo QR para completar el pago</p>
-            <img src="images/codigoQr.png" alt="">
+        <div id="datosfot">
+            <p class="textoDatos">Completa el siguiente formulario y nos pondremos en contacto contigo para hablar de tus opciones de aprendizaje y resolver cualquier duda que puedas tener</p>
+            <img src="images/238957838_438691073955895_4753755594828067421_n.jpg" class="imgDatos" alt="">
+            <img src="images/233275500_518276869435822_1856453344163008794_n.jpg" class="imgDatos" alt="">
+            <img src="images/238153818_377767297093767_5688296348611422785_n.jpg" class="imgDatos" alt="">
         </div>
-    </center>
+    </div>
+    <div id="codigoQr" style="display: none;" > 
+            <p class="texto"> Accede a este Codigo QR para completar el pago</p>
+            <center><img src="images/codigoQr.png" alt=""></center>
+    </div>
+
+    <footer class="footer"> 
+            <div class="footer_left">
+                <a href="index.html" target="_parent" class="links2"> Home </a><br>
+                <a href="Cursos.html" target="_parent" class="links2"> Cursos </a><br>
+                <a href="Docentes.html" target="_parent" class="links2"> Docentes </a><br>
+                <a href="quienes.somos.html" target="_parent" class="links2"> Historia </a><br>
+                <a href="contacto.html" target="_parent" class="links2"> Contacto </a>
+            </div>
+            <!--Izquierda-->
+            <div class="footer_adelante">
+                <div> Ciudad de La Plata</div>
+                <div>Calle 44 N° 1035 </div>
+                <div> institutoberlin@gmail.com </div>
+                <div> +549 2215089528 </div>
+                <div> 0221 45089528 </div>
+            </div>
+            <!--Centrar-->
+            <div class="footer_right">
+                <a href="https://www.facebook.com/institutoberlinatelierdediomas" target="_blank" class="links2"><img src="images/facebook.png" class="imgFooter"> </a>
+                <a href="https://www.instagram.com/institutoberlin.lp/" target="_blank" class="links2"><img src="images/instagram.png" class="imgFooter"> </a>
+                <a href="https://www.whatsapp.com/?lang=es" target="_blank" class="links2"><img src="images/whatsapp.png" class="imgFooter"></a>
+                <a href="https://ar.linkedin.com/" target="_blank" class="links2"><img src="images/linkedin.png" class="imgFooter"> </a>
+            </div>
+            <!--Derecha-->
+    </footer>
+
+    
     <script src="js/datos.js"></script>
 </body>
 </html>
