@@ -2,7 +2,5 @@
 	Arreglar reestablecer
 
 - Datos
-	Arreglar tamaños
-	distribucion
 	ingresar
 	

@@ -1,0 +1,6 @@
+Escribo estas lineas para dar una breve explicacion las funcionalidades del proyecto. 
+El proyecto cuenta con dos formularios, uno de ellos dentro de la pagina datos.html. El mismo esta creado con la idea de que se produzca un rapido acceso a la informacion de quien quiere tomar un curso y facilidad para concretar la compra a traves de un codigo qr a whatsapp
+El otro de los formularios se encuentra en la pagina contacto.html y esta para realizar consultas a traves de un correo.
+Se agrego un desplegable con mouseover en la pagina docentes.html.
+Se creo una pagina (datosAlumnos.js) para el control y la busqueda de alumnos por parte del personal del instituto. La idea seria agegar una api propia del instituto para sus alumnos.
+
