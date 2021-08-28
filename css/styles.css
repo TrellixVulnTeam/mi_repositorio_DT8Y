@@ -433,7 +433,7 @@ html {
 
 @media only screen and (min-width: 1300px) {
   .cursosBody {
-    height: 80rem; } }
+    height: 84rem; } }
 
 @media only screen and (min-width: 1600px) {
   .cursosBody {
@@ -441,7 +441,7 @@ html {
 
 @media only screen and (min-width: 1800px) {
   .cursosBody {
-    height: 67rem; } }
+    height: 69rem; } }
 
 table {
   margin-top: 2rem;

@@ -1,6 +1,5 @@
--Contacto
-	Arreglar reestablecer
 
-- Datos
-	ingresar
-	
+* Idem. para datosAlumnos.html. Entiendo que si es de uso interno, debería poder accederse desde la página (una sección para los empleados, en donde tenga un login para el usuario). Podés usar un usuario y contraseña cualquiera por ahora (admin y 1234). Y le pondría algún estilo... Podés aprovechar la función hacerTabla que se ejecutaría en el onRequestHandler
+
+
+* La parte de contacto no valida? Si no va a validar, no sé si lo dejaría para la entrega final...
